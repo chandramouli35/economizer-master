@@ -1,0 +1,60 @@
+.profileLayOut{
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    font-family: "Roboto";
+} 
+.paragraph{
+    color: gray;
+}
+@media (min-width:768px){
+    .profileLayOut{
+        display: flex; 
+        flex-direction: row;
+        border-radius: 10px;  
+       
+        justify-content: space-between;  
+        width: 940px; 
+        padding: 10px;
+
+        flex-grow: 1px; 
+        font-family: "Roboto";
+    }
+    .paragraph{
+        color: gray;
+    }
+} 
+.nameAndAvatar{
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: 5px;
+    
+} 
+.calandar{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    
+    
+} 
+.today{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    border:1px solid rgb(245, 233, 233); 
+    border-radius: 10px; 
+    margin: 10px; 
+    font-family: "Roboto"; 
+    padding: 5px;
+} 
+.Preview{
+    border:1px solid rgb(252, 239, 239); 
+    border-radius: 10px; 
+    margin: 10px; 
+    font-family: "Roboto";
+    padding:5px;
+}
